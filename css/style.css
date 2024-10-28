@@ -243,17 +243,52 @@ img {
 
 
 /* Footer */
-
-.footer{
+.container {
+    background-color: green;
+    height: 20vh;
     display: flex;
-    background: var(--Background-blue-Bright); 
+    justify-content: center;
     align-items: center;
-    height: 150px;
-    background-color: #20a131;
 }
-.footer p{
-    flex: 1;
+
+.link {
+    height: 70px;
+    width: 70px;
+    background-color: #caf7e3;
+    border-radius: 35px;
     text-align: center;
-    font-size: 1.25em;
-    color: rgb(24, 23, 23);
+    margin: 7px;
+    line-height: 80px;
+}
+
+a i {
+    transition: all 0.3s linear;
+}
+
+a:hover i {
+    transform: scale(1.5);
+}
+
+.youtube:hover {
+    color: red;
+}
+
+.facebook:hover {
+    color: blue;
+}
+
+.instagram:hover {
+    color: #e11d74;
+}
+
+.twitter:hover {
+    color: #00adb5;
+}
+
+.github:hover {
+    color: black;
+}
+
+.linkedin:hover {
+    color: #04009a;
 }
