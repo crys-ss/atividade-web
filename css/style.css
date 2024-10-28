@@ -34,7 +34,7 @@ img {
 .header {
     overflow: hidden;
     background-color: #20a131;
-    padding: 30px 10px;
+    padding: 30px 10px;    
 }
   
 .header a {
@@ -43,7 +43,7 @@ img {
     text-align: center;
     padding: 12px;
     text-decoration: none;
-    font-size: 18px; 
+    font-size: 20px; 
     line-height: 25px;
     border-radius: 4px;
 }
@@ -135,10 +135,13 @@ img {
     max-width: 960px;
     margin: 0 auto;
     padding: 60px 0;
+    text-align: justify;
+    text-justify: inter-word;
     display: flex;
     flex-wrap: wrap;
     
 }
+
 
 .sobre-info{
     flex: 2 1 400px;
