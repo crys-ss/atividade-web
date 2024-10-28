@@ -138,7 +138,7 @@ img {
 }
 
 .sobre-info{
-    flex: 2 1 300px;
+    flex: 2 1 400px;
     margin: 0 10px;
 }
 
@@ -151,7 +151,7 @@ img {
     font-size: 1.25em;
     line-height: 1.4;
     margin-bottom: 1em;
-    color: var(--Color-gray-Strong);
+    color: var(--Color-white-Strong);
 }
 
 .sobre-img{
@@ -341,7 +341,7 @@ img {
     font-size: 1.25em;
     font-style: italic;
     max-width: 230px;
-    color: var(--Color-gray-Strong);
+    color: var(--Color-white-Strong);
     margin-bottom: 10px ;
 }
 
